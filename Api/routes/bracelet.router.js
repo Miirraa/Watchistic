@@ -57,4 +57,15 @@ router.delete('/:id', async (req, res) => {
     }
 });
 
+router.get('/getimage', async (req, res) => {
+    try{
+        const p = await BraceletController.getImage(req.body.Couleur_id, req.body.Matiere_id);
+        console.log(p);
+        return res.json(p).status(200).end();
+    } catch(err){
+        console.log(err);
+        res.status(409).end();
+    }
+});
+
 module.exports = router;
