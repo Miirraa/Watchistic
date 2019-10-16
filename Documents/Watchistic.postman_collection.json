@@ -1,0 +1,142 @@
+{
+	"info": {
+		"_postman_id": "6caa1009-c322-4533-80cc-dd202ec7c930",
+		"name": "Watchistic",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Utilisateur",
+			"item": [
+				{
+					"name": "http://localhost:3000/utilisateur/",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"Nom\": \"Boilleau\",\n    \"Prenom\" : \"Romain\",\n    \"Email\": \"romain.boilleau@gmail.com\",\n    \"Mdp\": \"test\",\n    \"Telephone\": \"0631127552\",\n    \"Adresse\": \"1 place Michel Ange\",\n    \"Ville\": \"Chatou\",\n    \"CodePostale\": 78400\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/utilisateur/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"utilisateur",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/utilisateur/",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\t\n\t\"id\": 1,\n\t\"updates\": {\n\t    \"Nom\": \"Boilleau\",\n\t    \"Prenom\" : \"Romain\",\n\t    \"Email\": \"romain.boilleau@gmail.com\",\n\t    \"Mdp\": \"test\",\n\t    \"Telephone\": \"0631127552\",\n\t    \"Adresse\": \"1 place Michel Ange\",\n\t    \"Ville\": \"Chatou\",\n\t    \"CodePostale\": 78400\n\t}\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/utilisateur/getone/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"utilisateur",
+								"getone",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/utilisateur/",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\t\n\t\"id\": 1,\n\t\"updates\": {\n\t    \"Nom\": \"Boilleauu\",\n\t    \"Prenom\" : \"Romain\",\n\t    \"Email\": \"romain.boilleau@gmail.com\",\n\t    \"Mdp\": \"test\",\n\t    \"Telephone\": \"0631127552\",\n\t    \"Adresse\": \"1 place Michel Ange\",\n\t    \"Ville\": \"Chatou\",\n\t    \"CodePostale\": 78400\n\t}\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/utilisateur/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"utilisateur",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/utilisateur/",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\t\n\t\"id\": 1,\n\t\"updates\": {\n\t    \"Nom\": \"Boilleauu\",\n\t    \"Prenom\" : \"Romain\",\n\t    \"Email\": \"romain.boilleau@gmail.com\",\n\t    \"Mdp\": \"test\",\n\t    \"Telephone\": \"0631127552\",\n\t    \"Adresse\": \"1 place Michel Ange\",\n\t    \"Ville\": \"Chatou\",\n\t    \"CodePostale\": 78400\n\t}\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/utilisateur/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"utilisateur",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
