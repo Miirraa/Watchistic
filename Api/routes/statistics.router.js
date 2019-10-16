@@ -18,4 +18,14 @@ router.get('/getcadran', async (req, res) => {
     }
 });
 
+router.get('/getboitier', async (req, res) => {
+    try{
+        const p = await StatisticsController.getCountBoitier();
+        return res.json(p).status(200).end();
+    } catch(err){
+        console.log(err);
+        res.status(409).end();
+    }
+});
+
 module.exports = router;

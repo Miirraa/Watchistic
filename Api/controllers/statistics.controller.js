@@ -2,6 +2,7 @@
 
 const models = require('../models');
 const sequelize = models.sequelize;
+const Sequelize = models.sequelize;
 const Bracelet = models.bracelet;
 const Modele = models.modele;
 const Cadran = models.cadran;
@@ -9,16 +10,23 @@ const Boitier = models.boitier;
 
 class StatisticsController {
 
-
-
     async getCountCadran(){
-        Modele.findAll({
+        return Modele.findAll({
             attributes: {
-                include: [[Sequelize.fn("COUNT", Sequelize.col("Cadrad_id")), "CadranCount"]]
+                include: [[Sequelize.fn("COUNT", sequelize.col("Cadran_id")), "CadranCount"]],
+                exclude: ['createdAt', 'updatedAt', 'Boitier_id', 'Bracelet_id', 'Nom', 'id']
             },
-            include: [{
-                model: Modele, attributes: []
-            }]
+            group: ['Cadran_id']
+        });
+    }
+
+    async getCountBoitier(){
+        return Modele.findAll({
+            attributes: {
+                include: [[Sequelize.fn("COUNT", sequelize.col("Boitier_id")), "BoitierCount"]],
+                exclude: ['createdAt', 'updatedAt', 'Cadran_id', 'Bracelet_id', 'Nom', 'id']
+            },
+            group: ['Boitier_id']
         });
     }
 
