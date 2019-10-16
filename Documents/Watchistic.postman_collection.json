@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "6caa1009-c322-4533-80cc-dd202ec7c930",
+		"_postman_id": "7d01bb94-9e2c-423e-a433-88920052e057",
 		"name": "Watchistic",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -170,7 +170,8 @@
 					},
 					"response": []
 				}
-			]
+			],
+			"protocolProfileBehavior": {}
 		},
 		{
 			"name": "matiere",
@@ -337,7 +338,8 @@
 					},
 					"response": []
 				}
-			]
+			],
+			"protocolProfileBehavior": {}
 		},
 		{
 			"name": "couleur",
@@ -504,7 +506,8 @@
 					},
 					"response": []
 				}
-			]
+			],
+			"protocolProfileBehavior": {}
 		},
 		{
 			"name": "bracelet",
@@ -671,7 +674,8 @@
 					},
 					"response": []
 				}
-			]
+			],
+			"protocolProfileBehavior": {}
 		},
 		{
 			"name": "Cadran",
@@ -838,7 +842,8 @@
 					},
 					"response": []
 				}
-			]
+			],
+			"protocolProfileBehavior": {}
 		},
 		{
 			"name": "Boitier",
@@ -1005,7 +1010,8 @@
 					},
 					"response": []
 				}
-			]
+			],
+			"protocolProfileBehavior": {}
 		},
 		{
 			"name": "Modele",
@@ -1137,8 +1143,43 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "http://localhost:3000/modele/getAll",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:3000/modele/getAll",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"modele",
+								"getAll"
+							]
+						}
+					},
+					"response": []
 				}
-			]
+			],
+			"protocolProfileBehavior": {}
 		},
 		{
 			"name": "Soumettre",
@@ -1270,8 +1311,43 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "http://localhost:3000/soumettre/getAll",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:3000/soumettre/getAll",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"soumettre",
+								"getAll"
+							]
+						}
+					},
+					"response": []
 				}
-			]
+			],
+			"protocolProfileBehavior": {}
 		},
 		{
 			"name": "voter",
@@ -1403,8 +1479,44 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "http://localhost:3000/voter/getAll",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:3000/voter/getAll",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"voter",
+								"getAll"
+							]
+						}
+					},
+					"response": []
 				}
-			]
+			],
+			"protocolProfileBehavior": {}
 		}
-	]
+	],
+	"protocolProfileBehavior": {}
 }
