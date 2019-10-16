@@ -1,0 +1,412 @@
+{
+	"info": {
+		"_postman_id": "c8df1579-e22f-45cb-b9dc-83d9a3da74b2",
+		"name": "Watchistic_",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Utilisateur",
+			"item": [
+				{
+					"name": "http://localhost:3000/utilisateur/",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"Nom\": \"Boilleau\",\n    \"Prenom\" : \"Romain\",\n    \"Email\": \"romain.boilleau@gmail.com\",\n    \"Mdp\": \"test\",\n    \"Telephone\": \"0631127552\",\n    \"Adresse\": \"1 place Michel Ange\",\n    \"Ville\": \"Chatou\",\n    \"CodePostale\": 78400\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/utilisateur/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"utilisateur",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/utilisateur/",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\t\n\t\"id\": 1,\n\t\"updates\": {\n\t    \"Nom\": \"Boilleau\",\n\t    \"Prenom\" : \"Romain\",\n\t    \"Email\": \"romain.boilleau@gmail.com\",\n\t    \"Mdp\": \"test\",\n\t    \"Telephone\": \"0631127552\",\n\t    \"Adresse\": \"1 place Michel Ange\",\n\t    \"Ville\": \"Chatou\",\n\t    \"CodePostale\": 78400\n\t}\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/utilisateur/getone/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"utilisateur",
+								"getone",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/utilisateur/",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\t\n\t\"id\": 1,\n\t\"updates\": {\n\t    \"Nom\": \"Boilleauu\",\n\t    \"Prenom\" : \"Romain\",\n\t    \"Email\": \"romain.boilleau@gmail.com\",\n\t    \"Mdp\": \"test\",\n\t    \"Telephone\": \"0631127552\",\n\t    \"Adresse\": \"1 place Michel Ange\",\n\t    \"Ville\": \"Chatou\",\n\t    \"CodePostale\": 78400\n\t}\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/utilisateur/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"utilisateur",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/utilisateur/",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\t\n\t\"id\": 1,\n\t\"updates\": {\n\t    \"Nom\": \"Boilleauu\",\n\t    \"Prenom\" : \"Romain\",\n\t    \"Email\": \"romain.boilleau@gmail.com\",\n\t    \"Mdp\": \"test\",\n\t    \"Telephone\": \"0631127552\",\n\t    \"Adresse\": \"1 place Michel Ange\",\n\t    \"Ville\": \"Chatou\",\n\t    \"CodePostale\": 78400\n\t}\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/utilisateur/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"utilisateur",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Cadran",
+			"item": [
+				{
+					"name": "http://localhost:3000/cadran/",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"Nom\": \"Cadran or\",\n    \"Description\" : \"blablabla bla blabla\",\n    \"Image\": \"/Assets/cadran\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/cadran/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"cadran",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/cadran/1",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:3000/cadran/getone/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"cadran",
+								"getone",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/cadran/update",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"id\": 1,\n\t\"updates\": {\n\t    \"Nom\": \"Cadran or\",\n\t    \"Description\" : \"blablabla bla blabla\",\n\t    \"Image\": \"/Assets/Cadrans\"\n\t}\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/cadran/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"cadran",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/cadran/1",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:3000/cadran/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"cadran",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Boitier",
+			"item": [
+				{
+					"name": "http://localhost:3000/boitier/",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"Nom\": \"Boitier or\",\n    \"Description\" : \"blablabla bla blabla\",\n    \"Image\": \"/Assets/boitier\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/boitier/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"boitier",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/boitier/1",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:3000/boitier/getone/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"boitier",
+								"getone",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/boitier/update",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"id\": 1,\n\t\"updates\": {\n\t    \"Nom\": \"Boitier or\",\n\t    \"Description\" : \"blablabla bla blabla\",\n\t    \"Image\": \"/Assets/Boitiers\"\n\t}\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/boitier/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"boitier",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/boitier/1",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:3000/boitier/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"boitier",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

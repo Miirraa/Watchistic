@@ -2,7 +2,7 @@
 
 const models = require('../models');
 const sequelize = models.sequelize;
-const Boitier = models.Boitier;
+const Boitier = models.boitier;
 
 class BoitierController {
 
