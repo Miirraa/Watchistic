@@ -44,5 +44,19 @@ class BraceletController {
             where: {id: id}
         })
     }
+
+    async getImage(Couleur, Matiere){
+        try{
+            const res = await Bracelet.findOne({
+                where: {
+                    Couleur_id: Couleur,
+                    Matiere_id: Matiere
+                }
+            });
+            return res.Image;
+        }catch(err){
+            console.log(err);
+        }
+    }
 }
 module.exports = new BraceletController();
