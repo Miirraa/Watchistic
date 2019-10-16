@@ -30,6 +30,11 @@ class StatisticsController {
         });
     }
 
+    async getCountCouleur() {
+        const res = "SELECT b.Couleur_id, count(b.id) FROM modele as a LEFT JOIN bracelet as b ON a.Bracelet_id = b.id GROUP BY b.Couleur_id";
+    }
+
+
 
 }
 module.exports = new StatisticsController();
