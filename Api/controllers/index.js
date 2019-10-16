@@ -10,6 +10,7 @@ module.exports = {
     CadranController: require('./cadran.controller'),
     CouleurController: require('./couleur.controller'),
     ModeleController: require('./modele.controller'),
-    MatiereController: require('./matiere.controller')
+    MatiereController: require('./matiere.controller'),
+    StatisticsController: require('./statistics.controller')
 };
 

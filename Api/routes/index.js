@@ -12,6 +12,7 @@ class RouterBuilder {
         app.use('/soumettre', require('./soumettre.router'));
         app.use('/utilisateur', require('./utilisateur.router'));
         app.use('/voter', require('./voter.router'));
+        app.use('/statistics', require('./statistics.router'));
     }
 }
 
