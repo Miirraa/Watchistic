@@ -83,8 +83,16 @@ INSERT INTO `cadran` (`id`, `Nom`, `Description`, `Image`, `createdAt`, `updated
 	VALUES (NULL, 'Cadran Bleu', 'Cadran bleu avec aiguilles argent', '/assets/cadran/cadran-bleu.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 	
 	
-	
-	
+/******************** UTILISATEUR ***************/
+
+INSERT INTO `utilisateur` (`id`, `Nom`, `Prenom`, `Email`, `Mdp`, `Telephone`, `Adresse`, `Ville`, `CodePostale`, `createdAt`, `updatedAt`) 
+	VALUES (NULL, 'Boilleau', 'Romain', 'romain.boilleau@gmail.com', '123', '0612234578', 'lalalalalala', 'lulululu', '75012', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+
+INSERT INTO `utilisateur` (`id`, `Nom`, `Prenom`, `Email`, `Mdp`, `Telephone`, `Adresse`, `Ville`, `CodePostale`, `createdAt`, `updatedAt`) 
+	VALUES (NULL, 'Allirol', 'Elise', 'allirol.elise@gmail.com', '123', '0612234578', 'lalalalalala', 'lulululu', '75012', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+
+
+
 	
 	
 	
