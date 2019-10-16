@@ -21,6 +21,10 @@ class MatiereController {
         });
     }
 
+    async getAllMatiere() {
+        return Matiere.findAll();
+    }
+
     async updateMatiere(updates, id){
         try{
             return Matiere.update(

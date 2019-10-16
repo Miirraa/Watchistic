@@ -27,6 +27,16 @@ router.get('/getone/:id', async (req, res) => {
     }
 });
 
+router.get('/getAll', async (req, res) => {
+    try{
+        const p = await BraceletController.getAllBracelet();
+        return res.json(p).status(200).end();
+    } catch(err){
+        console.log(err);
+        res.status(409).end();
+    }
+});
+
 router.put('/update/', async (req, res) => {
     try{
         const p = await BraceletController.updateBracelet(req.body.updates, req.body.id);

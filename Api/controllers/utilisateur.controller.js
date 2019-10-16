@@ -27,6 +27,10 @@ class UtilisateurController {
         });
     }
 
+    async getAllUtilisateur() {
+        return Utilisateur.findAll();
+    }
+
     async updateUtilisateur(updates, id){
         try{
             return Utilisateur.update(

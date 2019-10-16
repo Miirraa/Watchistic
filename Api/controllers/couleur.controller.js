@@ -21,6 +21,10 @@ class CouleurController {
         });
     }
 
+    async getAllCouleur() {
+        return Couleur.findAll();
+    }
+
     async updateCouleur(updates, id){
         try{
             return Couleur.update(

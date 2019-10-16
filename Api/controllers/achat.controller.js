@@ -21,6 +21,10 @@ class AchatController {
         });
     }
 
+    async getAllAchat() {
+        return Achat.findAll();
+    }
+
     async updateAchat(updates, id){
         try{
             return Achat.update(

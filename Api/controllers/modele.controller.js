@@ -23,6 +23,10 @@ class ModeleController {
         });
     }
 
+    async getAllModele() {
+        return Modele.findAll();
+    }
+
     async updateModele(updates, id){
         try{
             return Modele.update(

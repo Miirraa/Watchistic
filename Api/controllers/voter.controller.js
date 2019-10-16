@@ -21,6 +21,10 @@ class VoterController {
         });
     }
 
+    async getAllVoter() {
+        return Voter.findAll();
+    }
+
     async updateVoter(updates, id){
         try{
             return Voter.update(

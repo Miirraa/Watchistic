@@ -22,6 +22,11 @@ class BoitierController {
         });
     }
 
+    async getAllBoitier() {
+         return Boitier.findAll();
+    }
+
+
     async updateBoitier(updates, id){
         try{
             return Boitier.update(

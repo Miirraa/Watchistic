@@ -22,6 +22,10 @@ class BraceletController {
         });
     }
 
+    async getAllBracelet() {
+        return Bracelet.findAll();
+    }
+
     async updateBracelet(updates, id){
         try{
             return Bracelet.update(

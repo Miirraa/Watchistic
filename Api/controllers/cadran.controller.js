@@ -22,6 +22,10 @@ class CadranController {
         });
     }
 
+    async getAllCadran() {
+        return Cadran.findAll();
+    }
+
     async updateCadran(updates, id){
         try{
             return Cadran.update(

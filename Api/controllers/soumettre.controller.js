@@ -21,6 +21,10 @@ class VoterController {
         });
     }
 
+    async getAllSoumettre() {
+        return Soumettre.findAll();
+    }
+
     async updateSoumettre(updates, id){
         try{
             return Soumettre.update(
