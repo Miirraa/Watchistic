@@ -2,14 +2,9 @@
 
 module.exports = function(sequelize, DataTypes) {
 	const Voter = sequelize.define('voter', {
-		id: {
-			type: DataTypes.INTEGER(11),
-			allowNull: false,
-			primaryKey: true,
-			autoIncrement: true
-		},
 		Utilisateur_id: {
 			type: DataTypes.INTEGER(11),
+			primaryKey: true,
 			allowNull: false,
 			references: {
 				model: 'utilisateur',
@@ -17,13 +12,13 @@ module.exports = function(sequelize, DataTypes) {
 			}
 		},
 		Soumettre_id: {
+			primaryKey: true,
 			type: DataTypes.INTEGER(11),
 			allowNull: false,
 			references: {
 				model: 'soumettre',
 				key: 'id'
-			},
-			unique: true
+			}
 		}
 	}, {
 		tableName: 'voter'
