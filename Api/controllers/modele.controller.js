@@ -45,5 +45,17 @@ class ModeleController {
             where: {id: id}
         })
     }
+
+    async getModeleByComponent(Boitier, Bracelet, Cadran){
+        const res = await Modele.findAll({
+            where: {
+                Boitier_id: Boitier,
+                Bracelet_id: Bracelet,
+                Cadran_id: Cadran
+            }
+        });
+        console.log(res.count());
+        return res.count();
+    }
 }
 module.exports = new ModeleController();

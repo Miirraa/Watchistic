@@ -3,6 +3,7 @@
 const models = require('../models');
 const sequelize = models.sequelize;
 const Soumettre = models.soumettre;
+const Modele = models.modele;
 
 class VoterController {
 
@@ -42,6 +43,18 @@ class VoterController {
         Soumettre.destroy({
             where: {id: id}
         })
+    }
+
+    async controlSoumettre(Modele_id) {
+        const tmp = Modele.getModel(Modele_id);
+        const Boitier = tmp.Boitier_id;
+        const Bracelet = tmp.Bracelet_id;
+        const Cadran = tmp.Cadran_id;
+        const nb = getModeleByComponent(Boitier, Bracelet, Cadran);
+        if (nb > )
+
+
+
     }
 }
 module.exports = new VoterController();
