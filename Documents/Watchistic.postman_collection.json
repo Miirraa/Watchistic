@@ -511,8 +511,11 @@
 			"item": [
 				{
 					"name": "http://localhost:3000/utilisateur/",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
 					"request": {
-						"method": "POST",
+						"method": "GET",
 						"header": [
 							{
 								"key": "Content-Type",
@@ -1374,6 +1377,37 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "http://localhost:3000/soumettre/submit",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"Bracelet_id\": 1, \n    \"Cadran_id\": 1, \n    \"Boitier_id\": 1,\n    \"Nom\": \"\", \n    \"Utilisateur_id\" : 1\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/soumettre/submit",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"soumettre",
+								"submit"
+							]
+						}
+					},
+					"response": []
 				}
 			]
 		},
@@ -1642,6 +1676,26 @@
 							"path": [
 								"statistics",
 								"getmodele"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/statistics/getVote",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/statistics/getvote",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"statistics",
+								"getvote"
 							]
 						}
 					},

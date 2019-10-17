@@ -73,5 +73,14 @@ class SoumettreController {
             return true;
         }
     }
+
+    async getModeleList(){
+        let tab = [];
+        const tmp = await this.getAllSoumettre();
+        for (let t in tmp){
+            tab[i] = tmp[i];
+        }
+
+    }
 }
 module.exports = new SoumettreController();
