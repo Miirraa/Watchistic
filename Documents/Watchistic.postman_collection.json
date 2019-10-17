@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "7d01bb94-9e2c-423e-a433-88920052e057",
+		"_postman_id": "38e0dfd9-650e-4556-958d-a94b728f6a91",
 		"name": "Watchistic",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -170,8 +170,7 @@
 					},
 					"response": []
 				}
-			],
-			"protocolProfileBehavior": {}
+			]
 		},
 		{
 			"name": "matiere",
@@ -338,8 +337,7 @@
 					},
 					"response": []
 				}
-			],
-			"protocolProfileBehavior": {}
+			]
 		},
 		{
 			"name": "couleur",
@@ -506,8 +504,7 @@
 					},
 					"response": []
 				}
-			],
-			"protocolProfileBehavior": {}
+			]
 		},
 		{
 			"name": "bracelet",
@@ -526,10 +523,10 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"Couleur_id\": 3,\n    \"Matiere_id\" : 3,\n    \"Image\": \"/Assests/Bracelet\"\n}"
+							"raw": "{\n    \"Couleur_id\": 3,\n    \"Matiere_id\" : 3\n}"
 						},
 						"url": {
-							"raw": "http://localhost:3000/bracelet/",
+							"raw": "http://localhost:3000/bracelet/getimage/",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -537,6 +534,7 @@
 							"port": "3000",
 							"path": [
 								"bracelet",
+								"getimage",
 								""
 							]
 						}
@@ -673,9 +671,43 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "http://localhost:3000/bracelet/getimage",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"Couleur_id\": 3,\n    \"Matiere_id\": 3\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/bracelet/getimage/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"bracelet",
+								"getimage",
+								""
+							]
+						}
+					},
+					"response": []
 				}
-			],
-			"protocolProfileBehavior": {}
+			]
 		},
 		{
 			"name": "Cadran",
@@ -842,8 +874,7 @@
 					},
 					"response": []
 				}
-			],
-			"protocolProfileBehavior": {}
+			]
 		},
 		{
 			"name": "Boitier",
@@ -1010,8 +1041,7 @@
 					},
 					"response": []
 				}
-			],
-			"protocolProfileBehavior": {}
+			]
 		},
 		{
 			"name": "Modele",
@@ -1178,8 +1208,7 @@
 					},
 					"response": []
 				}
-			],
-			"protocolProfileBehavior": {}
+			]
 		},
 		{
 			"name": "Soumettre",
@@ -1346,8 +1375,7 @@
 					},
 					"response": []
 				}
-			],
-			"protocolProfileBehavior": {}
+			]
 		},
 		{
 			"name": "voter",
@@ -1514,9 +1542,112 @@
 					},
 					"response": []
 				}
-			],
-			"protocolProfileBehavior": {}
+			]
+		},
+		{
+			"name": "statistics",
+			"item": [
+				{
+					"name": "http://localhost:3000/statistics/getcadran",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/statistics/getcadran",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"statistics",
+								"getcadran"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/statistics/getboitier",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/statistics/getboitier",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"statistics",
+								"getboitier"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/statistics/getcouleur",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/statistics/getcouleur",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"statistics",
+								"getcouleur"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/statistics/getmatiere",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/statistics/getmatiere",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"statistics",
+								"getmatiere"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/statistics/getmodele",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/statistics/getmodele",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"statistics",
+								"getmodele"
+							]
+						}
+					},
+					"response": []
+				}
+			]
 		}
-	],
-	"protocolProfileBehavior": {}
+	]
 }
