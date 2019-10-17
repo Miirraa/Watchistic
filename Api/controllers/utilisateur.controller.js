@@ -27,6 +27,15 @@ class UtilisateurController {
         });
     }
 
+    async getUtilisateurByMail(Mail) {
+        const p = await Utilisateur.findOne({
+            where: {
+                Email: Mail
+            }
+        });
+        return p.id;
+    }
+
     async getAllUtilisateur() {
         return Utilisateur.findAll();
     }

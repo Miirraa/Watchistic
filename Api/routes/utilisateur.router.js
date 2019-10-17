@@ -37,6 +37,16 @@ router.get('/getAll', async (req, res) => {
     }
 });
 
+router.get('/getid', async (req, res) => {
+    try{
+        const p = await UtilisateurController.getUtilisateurByMail(req.body.Email);
+        return res.json(p).status(200).end();
+    } catch(err){
+        console.log(err);
+        res.status(409).end();
+    }
+});
+
 router.put('/update/', async (req, res) => {
     try{
         const p = await UtilisateurController.updateUtilisateur(req.body.updates, req.body.id);
