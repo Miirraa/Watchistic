@@ -18,7 +18,7 @@ class StatisticsController {
                 exclude: ['createdAt', 'updatedAt', 'Boitier_id', 'Bracelet_id', 'Nom', 'id']
             },
             group: ['Cadran_id'],
-            order: sequelize.literal('NbCadran DESC')
+            order: ['NbCadran', 'DESC']
         });
     }
 
