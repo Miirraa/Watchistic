@@ -17,6 +17,15 @@ router.post('/', async (req, res) => {
     }
 });
 
+router.post('/submit', async (req, res) => {
+    try {
+        const p = await SoumettreController.soumettreModel(req.body.Bracelet_id, req.body.Cadran_id, req.body.Boitier_id, req.body.Nom, req.body.Utilisateur_id);
+        return res.json(p).status(201).end();
+    } catch(err) {
+        res.status(400).end();
+    }
+});
+
 router.get('/getone/:id', async (req, res) => {
     try{
         const p = await SoumettreController.getSoumettre(req.params.id);

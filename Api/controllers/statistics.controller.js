@@ -11,8 +11,6 @@ class StatisticsController {
         return Modele.count();
     }
 
-    //SELECT m.Cadran_id, c.Nom, COUNT(Cadran_id) AS NbCadran FROM modele m, cadran c WHERE m.Cadran_id = c.id GROUP BY Cadran_id ORDER BY NbCadran DESC
-
     async getCountCadran(){
         let res;
         await sequelize.query('SELECT m.Cadran_id, c.Nom, COUNT(Cadran_id) AS NbCadran FROM modele m, cadran c WHERE m.Cadran_id = c.id GROUP BY Cadran_id ORDER BY NbCadran DESC',

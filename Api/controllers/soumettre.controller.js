@@ -7,6 +7,14 @@ const ModeleController = require('./modele.controller');
 
 class SoumettreController {
 
+    async soumettreModel(Bracelet_id, Cadran_id, Boitier_id, Nom, Utilisateur_id){
+        const tmp = await ModeleController.addModele(Bracelet_id, Cadran_id, Boitier_id, Nom);
+        const Modele_id = tmp.id;
+        const res = await this.addSoumettre(Modele_id, Utilisateur_id);
+        return res;
+    }
+
+
     async addSoumettre(Modele_id, Utilisateur_id){
         const test = await this.controlSoumettre(Modele_id);
         if(test) {
