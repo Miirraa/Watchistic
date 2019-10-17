@@ -7,7 +7,7 @@ INSERT INTO `boitier` (`id`, `Nom`, `Description`, `Image`, `createdAt`, `update
 	VALUES (NULL, 'Boitier Argent', 'Boitier coussin en argent', '/Assets/Boitier/boitier-argent.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 	
 INSERT INTO `boitier` (`id`, `Nom`, `Description`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, 'Boitier Acier', 'Boitier coussin en acier', '/Assets/Boitier/oitier-acier.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, 'Boitier Acier', 'Boitier coussin en acier', '/Assets/Boitier/boitier-acier.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 
 
