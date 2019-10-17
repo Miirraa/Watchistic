@@ -58,6 +58,16 @@ router.get('/getmodele', async (req, res) => {
     }
 });
 
+router.get('/getvote', async (req, res) => {
+    try{
+        const p = await StatisticsController.getCountVote();
+        return res.json(p).status(200).end();
+    } catch(err){
+        console.log(err);
+        res.status(409).end();
+    }
+});
+
 
 
 
