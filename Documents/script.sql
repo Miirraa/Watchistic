@@ -328,9 +328,34 @@ INSERT INTO `utilisateur` (`id`, `Nom`, `Prenom`, `Email`, `Mdp`, `Telephone`, `
 
 
 
+/***************** MODELE *******************/
+
+INSERT INTO `modele` (`id`, `Bracelet_id`, `Cadran_id`, `Boitier_id`, `Nom`, `createdAt`, `updatedAt`) 
+	VALUES (NULL, '1', '1', '3', 'Montre Moderne', '2019-10-17 00:00:00', '2019-10-17 00:00:00');	
+
+INSERT INTO `modele` (`id`, `Bracelet_id`, `Cadran_id`, `Boitier_id`, `Nom`, `createdAt`, `updatedAt`) 
+	VALUES (NULL, '39', '20', '2', 'Montre Moderne', '2019-10-17 00:00:00', '2019-10-17 00:00:00');	
+	
+INSERT INTO `modele` (`id`, `Bracelet_id`, `Cadran_id`, `Boitier_id`, `Nom`, `createdAt`, `updatedAt`) 
+	VALUES (NULL, '42', '22', '1', 'Montre Moderne', '2019-10-17 00:00:00', '2019-10-17 00:00:00');	
 	
 	
-	
+/**************** SOUMETTRE **********/
+
+INSERT INTO `soumettre` (`id`, `Modele_id`, `Utilisateur_id`, `createdAt`, `updatedAt`) 
+	VALUES (NULL, '2', '1', '2019-10-17 00:00:00', '2019-10-17 00:00:00');
+
+INSERT INTO `soumettre` (`id`, `Modele_id`, `Utilisateur_id`, `createdAt`, `updatedAt`) 
+	VALUES (NULL, '1', '2', '2019-10-17 00:00:00', '2019-10-17 00:00:00');
+
+INSERT INTO `soumettre` (`id`, `Modele_id`, `Utilisateur_id`, `createdAt`, `updatedAt`) 
+	VALUES (NULL, '3', '2', '2019-10-17 00:00:00', '2019-10-17 00:00:00');
+
+
+
+
+
+
 	
 	
 	
