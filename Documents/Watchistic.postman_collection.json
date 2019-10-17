@@ -169,6 +169,40 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "http://localhost:3000/utilisateur/getid",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:3000/utilisateur/getid",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"utilisateur",
+								"getid"
+							]
+						}
+					},
+					"response": []
 				}
 			]
 		},
