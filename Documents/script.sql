@@ -87,159 +87,159 @@ INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, 
 	VALUES (NULL, '1', '1', '/Assets/Bracelet/bleu-marine.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '1', '2', '/Assets/Bracelet/bleu-nuit.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '2', '1', '/Assets/Bracelet/bleu-nuit.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 	
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '1', '3', '/Assets/Bracelet/bleu-roi.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '3', '1', '/Assets/Bracelet/bleu-roi.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '1', '4', '/Assets/Bracelet/jaune.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '4', '1', '/Assets/Bracelet/jaune.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '1', '5', '/Assets/Bracelet/kaki.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '5', '1', '/Assets/Bracelet/kaki.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '1', '6', '/Assets/Bracelet/kaki-epais.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '6', '1', '/Assets/Bracelet/kaki-epais.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '1', '7', '/Assets/Bracelet/marron.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '7', '1', '/Assets/Bracelet/marron.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '1', '8', '/Assets/Bracelet/mauve.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '8', '1', '/Assets/Bracelet/mauve.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '1', '9', '/Assets/Bracelet/noir.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '9', '1', '/Assets/Bracelet/noir.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '1', '10', '/Assets/Bracelet/noir-epais.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '10', '1', '/Assets/Bracelet/noir-epais.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '1', '11', '/Assets/Bracelet/rouge.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '11', '1', '/Assets/Bracelet/rouge.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '1', '12', '/Assets/Bracelet/rouge-epais.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '12', '1', '/Assets/Bracelet/rouge-epais.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '1', '13', '/Assets/Bracelet/rouge-fonce.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '13', '1', '/Assets/Bracelet/rouge-fonce.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '1', '14', '/Assets/Bracelet/vert.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '14', '1', '/Assets/Bracelet/vert.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '1', '15', '/Assets/Bracelet/vert-emeraude.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '15', '1', '/Assets/Bracelet/vert-emeraude.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '1', '16', '/Assets/Bracelet/vert-moyen.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '16', '1', '/Assets/Bracelet/vert-moyen.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '1', '17', '/Assets/Bracelet/violet.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '17', '1', '/Assets/Bracelet/violet.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 
 
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '2', '1', '/Assets/Bracelet/bleu-marine.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '1', '2', '/Assets/Bracelet/bleu-marine.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
 	VALUES (NULL, '2', '2', '/Assets/Bracelet/bleu-nuit.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 	
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '2', '3', '/Assets/Bracelet/bleu-roi.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '3', '2', '/Assets/Bracelet/bleu-roi.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '2', '4', '/Assets/Bracelet/jaune.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '4', '2', '/Assets/Bracelet/jaune.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '2', '5', '/Assets/Bracelet/kaki.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '5', '2', '/Assets/Bracelet/kaki.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '2', '6', '/Assets/Bracelet/kaki-epais.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '6', '2', '/Assets/Bracelet/kaki-epais.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '2', '7', '/Assets/Bracelet/marron.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '7', '2', '/Assets/Bracelet/marron.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '2', '8', '/Assets/Bracelet/mauve.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '8', '2', '/Assets/Bracelet/mauve.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '2', '9', '/Assets/Bracelet/noir.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '9', '2', '/Assets/Bracelet/noir.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '2', '10', '/Assets/Bracelet/noir-epais.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '10', '2', '/Assets/Bracelet/noir-epais.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '2', '11', '/Assets/Bracelet/rouge.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '11', '2', '/Assets/Bracelet/rouge.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '2', '12', '/Assets/Bracelet/rouge-epais.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '12', '2', '/Assets/Bracelet/rouge-epais.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '2', '13', '/Assets/Bracelet/rouge-fonce.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '13', '2', '/Assets/Bracelet/rouge-fonce.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '2', '14', '/Assets/Bracelet/vert.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '14', '2', '/Assets/Bracelet/vert.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '2', '15', '/Assets/Bracelet/vert-emeraude.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '15', '2', '/Assets/Bracelet/vert-emeraude.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '2', '16', '/Assets/Bracelet/vert-moyen.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '16', '2', '/Assets/Bracelet/vert-moyen.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '2', '17', '/Assets/Bracelet/violet.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '17', '2', '/Assets/Bracelet/violet.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '3', '1', '/Assets/Bracelet/bleu-marine.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '1', '3', '/Assets/Bracelet/bleu-marine.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '3', '2', '/Assets/Bracelet/bleu-nuit.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '2', '3', '/Assets/Bracelet/bleu-nuit.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 	
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
 	VALUES (NULL, '3', '3', '/Assets/Bracelet/bleu-roi.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '3', '4', '/Assets/Bracelet/jaune.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '4', '3', '/Assets/Bracelet/jaune.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '3', '5', '/Assets/Bracelet/kaki.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '5', '3', '/Assets/Bracelet/kaki.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '3', '6', '/Assets/Bracelet/kaki-epais.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '6', '3', '/Assets/Bracelet/kaki-epais.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '3', '7', '/Assets/Bracelet/marron.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '7', '3', '/Assets/Bracelet/marron.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '3', '8', '/Assets/Bracelet/mauve.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '8', '3', '/Assets/Bracelet/mauve.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '3', '9', '/Assets/Bracelet/noir.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '9', '3', '/Assets/Bracelet/noir.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '3', '10', '/Assets/Bracelet/noir-epais.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '10', '3', '/Assets/Bracelet/noir-epais.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '3', '11', '/Assets/Bracelet/rouge.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '11', '3', '/Assets/Bracelet/rouge.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '3', '12', '/Assets/Bracelet/rouge-epais.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '12', '3', '/Assets/Bracelet/rouge-epais.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '3', '13', '/Assets/Bracelet/rouge-fonce.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '13', '3', '/Assets/Bracelet/rouge-fonce.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '3', '14', '/Assets/Bracelet/vert.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '14', '3', '/Assets/Bracelet/vert.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '3', '15', '/Assets/Bracelet/vert-emeraude.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '15', '3', '/Assets/Bracelet/vert-emeraude.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '3', '16', '/Assets/Bracelet/vert-moyen.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '16', '3', '/Assets/Bracelet/vert-moyen.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 INSERT INTO `bracelet` (`id`, `Couleur_id`, `Matiere_id`, `Image`, `createdAt`, `updatedAt`) 
-	VALUES (NULL, '3', '17', '/Assets/Bracelet/violet.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+	VALUES (NULL, '17', '3', '/Assets/Bracelet/violet.png', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 
 
