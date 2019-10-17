@@ -28,4 +28,35 @@ router.get('/getboitier', async (req, res) => {
     }
 });
 
+router.get('/getcouleur', async (req, res) => {
+    try{
+        const p = await StatisticsController.getCountCouleur();
+        return res.json(p).status(200).end();
+    } catch(err){
+        console.log(err);
+        res.status(409).end();
+    }
+});
+
+router.get('/getmatiere', async (req, res) => {
+    try{
+        const p = await StatisticsController.getCountMatiere();
+        return res.json(p).status(200).end();
+    } catch(err){
+        console.log(err);
+        res.status(409).end();
+    }
+});
+
+router.get('/getmodele', async (req, res) => {
+    try{
+        const p = await StatisticsController.CountModele();
+        return res.json(p).status(200).end();
+    } catch(err){
+        console.log(err);
+        res.status(409).end();
+    }
+});
+
+
 module.exports = router;
