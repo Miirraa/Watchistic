@@ -326,6 +326,14 @@ INSERT INTO `utilisateur` (`id`, `Nom`, `Prenom`, `Email`, `Mdp`, `Telephone`, `
 INSERT INTO `utilisateur` (`id`, `Nom`, `Prenom`, `Email`, `Mdp`, `Telephone`, `Adresse`, `Ville`, `CodePostale`, `createdAt`, `updatedAt`) 
 	VALUES (NULL, 'Allirol', 'Elise', 'allirol.elise@gmail.com', '123', '0612234578', 'lalalalalala', 'lulululu', '75012', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
+INSERT INTO `utilisateur` (`id`, `Nom`, `Prenom`, `Email`, `Mdp`, `Telephone`, `Adresse`, `Ville`, `CodePostale`, `createdAt`, `updatedAt`) 
+	VALUES (NULL, 'Feirrera', 'Thomas', 'feirrera.thomas@gmail.com', '123', '0612234578', 'lalalalalala', 'lulululu', '75012', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+
+INSERT INTO `utilisateur` (`id`, `Nom`, `Prenom`, `Email`, `Mdp`, `Telephone`, `Adresse`, `Ville`, `CodePostale`, `createdAt`, `updatedAt`) 
+	VALUES (NULL, 'Martinez', 'Corentin', 'martinez.corentin@gmail.com', '123', '0612234578', 'lalalalalala', 'lulululu', '75012', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
+
+INSERT INTO `utilisateur` (`id`, `Nom`, `Prenom`, `Email`, `Mdp`, `Telephone`, `Adresse`, `Ville`, `CodePostale`, `createdAt`, `updatedAt`) 
+	VALUES (NULL, 'Bruyere', 'Remi', 'bruyere.remi@gmail.com', '123', '0612234578', 'lalalalalala', 'lulululu', '75012', '2019-10-16 00:00:00', '2019-10-16 00:00:00');
 
 
 /***************** MODELE *******************/
@@ -353,9 +361,36 @@ INSERT INTO `soumettre` (`Modele_id`, `Utilisateur_id`, `createdAt`, `updatedAt`
 
 
 
+/*************** VOTER *********************/
+INSERT INTO `voter` (`Utilisateur_id`, `Soumettre_id`, `createdAt`, `updatedAt`) 
+	VALUES ('2', '1', '2019-10-17 00:00:00', '2019-10-17 00:00:00');
+	
+INSERT INTO `voter` (`Utilisateur_id`, `Soumettre_id`, `createdAt`, `updatedAt`) 
+	VALUES ('1', '3', '2019-10-17 00:00:00', '2019-10-17 00:00:00');
 
-
-
+INSERT INTO `voter` (`Utilisateur_id`, `Soumettre_id`, `createdAt`, `updatedAt`) 
+	VALUES ('5', '2', '2019-10-17 00:00:00', '2019-10-17 00:00:00');
+	
+INSERT INTO `voter` (`Utilisateur_id`, `Soumettre_id`, `createdAt`, `updatedAt`) 
+	VALUES ('3', '2', '2019-10-17 00:00:00', '2019-10-17 00:00:00');
+	
+INSERT INTO `voter` (`Utilisateur_id`, `Soumettre_id`, `createdAt`, `updatedAt`) 
+	VALUES ('4', '2', '2019-10-17 00:00:00', '2019-10-17 00:00:00');
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
