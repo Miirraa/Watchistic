@@ -10,7 +10,7 @@ router.use(bodyParser.json());
 
 router.post('/', async (req, res) => {
     try {
-        const p = await ModeleController.addModele(req.body.Bracelet_id, req.body.Cadran_id, req.body.Boitier_id, req.body.nom);
+        const p = await ModeleController.addModele(req.body.Bracelet_id, req.body.Cadran_id, req.body.Boitier_id, req.body.Nom);
         return res.json(p).status(201).end();
     } catch(err) {
         res.status(400).end();
