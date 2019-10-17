@@ -50,10 +50,10 @@ class StatisticsController {
         });
         return res;
     }
-
+    
     async getCountVote(){
         let res;
-        await sequelize.query('SELECT m.id as Modele_Id, Count(m.id) as NbVote FROM soumettre s, modele m, voter v WHERE v.soumettre_id = s.id AND s.Modele_id = m.id GROUP BY m.id ORDER BY NbVote DESC',
+        await sequelize.query('SELECT b.Nom as Createur, a.Modele_id, d.Nom, count(c.Utilisateur_id) as NbVote, e.Image as "image_bracelet", f.Image as "image_cadran", g.Image as "image_boitier" FROM `soumettre` as a Left join utilisateur as b ON a.Utilisateur_id = b.id left join voter as c on c.Soumettre_id = a.id left join modele as d on a.Modele_id = d.id left join bracelet as e on e.id = d.Bracelet_id left join cadran as f on f.id = d.Cadran_id left join boitier as g on g.id = d.Boitier_id GROUP by a.id',
             {type: sequelize.QueryTypes.SELECT }
         ).then(Vote => {
             res = Vote;
